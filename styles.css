@@ -1,5 +1,52 @@
-/* Write your CSS here! */
+body {
+    background-color: gray;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 8px;
+    display: block;
+}
+
+header {
+    padding: 1.875em 0;
+}
+
+h1, h2, h4 {
+    margin: 0;
+}
+
+article {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+header, main, footer {
+    background-color: black;
+}
+
 #mainHeading {
     color: red;
     text-align: center;
+}
+
+.funParagraph {
+    background-color: green;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 3em;
 }
