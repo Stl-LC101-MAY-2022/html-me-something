@@ -5,6 +5,8 @@ body {
     text-align: center;
     margin: 8px;
     display: block;
+    width: 100%;
+    max-width: 1024px;
 }
 
 header {
@@ -15,9 +17,13 @@ h1, h2, h4 {
     margin: 0;
 }
 
+h3 {
+    color: darkred;
+}
+
 article {
     margin: 1.875em 0;
-	padding: 0;
+	padding: 0.5em;
 	text-align: center;
 }
 
@@ -45,10 +51,9 @@ header, main, footer {
     color: green;
     display: block;
     margin: 0;
-    text-align: center;
 }
 
 footer {
     text-align: center;
-    padding: 3em;
+    padding: 0.5em;
 }
